@@ -15,7 +15,7 @@ Public dataset can be found on Roboflow:  https://universe.roboflow.com/ananth-v
 ### To detect the video
 `python detect.py --weights weights/fish_best.pt --conf 0.5 --source fish_vid.mp4 --view-img --nosave --no-trace`
 
-#####Tried using another fish video online to check 
+#### Tried using another fish video online to check 
 `python detect.py --weights weights/fish_best.pt --conf=0.5 --source fish_sample_video.mp4 --view-img --no-trace --nosave`
 
 
