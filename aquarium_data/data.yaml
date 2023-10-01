@@ -1,0 +1,6 @@
+train: aquarium_data\train\images
+val: aquarium_data\valid\images
+test: aquarium_data\test\images
+
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
